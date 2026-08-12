@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Géographie &amp; peuplement — Bɔ̀ Bà</title>
+<meta name="description" content="Le plateau mambila au Nigéria, la plaine des Tikar au Cameroun, les villages d'Atta, Somié et Sonkolong.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-row">
+    <a href="index.html" class="brand">
+      <span class="mark">Bɔ̀ Bà</span>
+      <span class="sub">Les Mambila du Cameroun</span>
+    </a>
+    <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰ Menu</button>
+    <nav class="main">
+      <a href="index.html">Accueil</a>
+      <a href="geographie.html" class="active">Géographie</a>
+      <a href="societe.html">Société</a>
+      <a href="chefferie.html">Chefferie</a>
+      <a href="economie.html">Économie</a>
+      <div class="nav-group">
+        <button type="button" class="nav-group__toggle" aria-expanded="false">Culture <span class="nav-group__chevron">▾</span></button>
+        <div class="nav-group__menu">
+          <a href="rites.html">Rites de passage</a>
+          <a href="religion.html">Religion &amp; sua</a>
+          <a href="histoire.html">Histoire</a>
+          <a href="personnages.html">Personnages</a>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button type="button" class="nav-group__toggle" aria-expanded="false">Ressources <span class="nav-group__chevron">▾</span></button>
+        <div class="nav-group__menu">
+          <a href="methode.html">Méthode</a>
+          <a href="sources.html">Sources</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="index.html">Accueil</a> / Géographie</div>
+    <div class="eyebrow">Terre</div>
+    <h1>Du plateau à la plaine des Tikar</h1>
+    <p class="lede">La majorité des Mambila vivent sur leur plateau d'origine, au Nigéria. Une
+    minorité — celle dont ce site rassemble le témoignage — s'est installée, en trois vagues
+    successives, dans la plaine des Tikar au Cameroun, où elle a bâti trois villages principaux
+    autour de leurs chefferies.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap article-grid">
+    <nav class="article-nav">
+      <span class="lab">Sur cette page</span>
+      <ul>
+        <li><a href="#carte">Carte du pays mambila</a></li>
+        <li><a href="#population">Population &amp; langue</a></li>
+        <li><a href="#plaine">La plaine des Tikar</a></li>
+        <li><a href="#somie">Le canton de Somié</a></li>
+        <li><a href="#hameaux">Villages et hameaux</a></li>
+      </ul>
+    </nav>
+
+    <div class="prose">
+
+      <h2 id="carte">Carte du pays mambila</h2>
+      <p>Le plateau des Mambila, au Nigéria, culmine loin au-dessus de la plaine tikar
+      camerounaise, dont il est séparé par un long escarpement. Trois villages principaux —
+      Atta, Somié et Sonkolong — s'égrènent au pied de cet escarpement, chacun entouré de
+      hameaux satellites. La frontière internationale suit approximativement la ligne de crête.</p>
+
+      <div class="figure">
+        <div class="map-box">
+          <svg viewBox="0 0 800 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Carte géo-référencée du pays mambila entre plateau nigérian et plaine des Tikar au Cameroun, positions de Somié et Bankim d'après leurs coordonnées GPS réelles">
+            <rect width="800" height="480" fill="#efe3c8"/>
+
+            <!-- Nigeria plateau zone -->
+            <path d="M0,0 L340,0 L300,150 L230,190 L120,210 L0,180 Z" fill="#6b5842" opacity=".22"/>
+            <text x="30" y="60" font-family="Fraunces, serif" font-style="italic" font-size="22" fill="#6b5842">Nigéria</text>
+            <text x="30" y="84" font-family="JetBrains Mono, monospace" font-size="11" fill="#6b5842">Plateau des Mambila (Nɔr bɔ̀)</text>
+
+            <!-- escarpment line -->
+            <path d="M0,190 C120,220 230,200 300,160 C360,128 420,150 470,175 C560,215 650,190 800,230"
+                  fill="none" stroke="#7c2f1f" stroke-width="3" stroke-dasharray="2 7" stroke-linecap="round"/>
+            <text x="470" y="150" font-family="JetBrains Mono, monospace" font-size="10" fill="#7c2f1f" letter-spacing="1">ESCARPEMENT / FRONTIÈRE</text>
+
+            <!-- Cameroun plaine zone -->
+            <path d="M0,180 C150,230 300,210 400,190 C520,240 650,220 800,260 L800,480 L0,480 Z" fill="#3b5a41" opacity=".30"/>
+            <text x="560" y="400" font-family="Fraunces, serif" font-style="italic" font-size="22" fill="#294435">Cameroun</text>
+            <text x="560" y="424" font-family="JetBrains Mono, monospace" font-size="11" fill="#294435">Plaine des Tikar — Adamaoua</text>
+
+            <!-- river Mape (schematic, real course not traced) -->
+            <path d="M780,240 C720,300 700,350 660,400 C630,440 590,460 540,470" fill="none" stroke="#3b6ea5" stroke-width="3" opacity=".55"/>
+            <text x="600" y="450" font-family="JetBrains Mono, monospace" font-size="10" fill="#3b6ea5">Rivière Mapé (tracé schématique)</text>
+
+            <!-- villages : Somié and Bankim placed from real coordinates (6.400°N 11.450°E and 6.083°N 11.490°E);
+                 Atta and Sonkolong placed approximately relative to Somié per textual description only -->
+            <g font-family="JetBrains Mono, monospace" font-size="12" fill="#1c1712">
+              <circle cx="240" cy="120" r="7" fill="#a4402a"/>
+              <text x="252" y="117">Atta (Ta)</text>
+              <text x="252" y="133" font-size="9" fill="#8a7d68">position approximative</text>
+
+              <circle cx="560" cy="220" r="9" fill="#a4402a" stroke="#1c1712" stroke-width="1.5"/>
+              <text x="575" y="217" font-weight="700">Somié (Ndeba)</text>
+              <text x="575" y="233" font-size="10" fill="#4a4038">6°24′N 11°27′E — canton étudié ici</text>
+
+              <circle cx="512" cy="212" r="7" fill="#a4402a"/>
+              <text x="470" y="198">Sonkolong (Mbɔr)</text>
+              <text x="470" y="211" font-size="9" fill="#8a7d68">position approximative</text>
+
+              <circle cx="624" cy="347" r="6" fill="#6b5842"/>
+              <text x="636" y="344">Bankim</text>
+              <text x="636" y="358" font-size="10" fill="#4a4038">6°05′N 11°29′E — sous-préfecture</text>
+
+              <circle cx="150" cy="180" r="5" fill="#c98a2e"/>
+              <text x="160" y="184" font-size="10">Mvɔr (site ancien)</text>
+              <text x="160" y="196" font-size="9" fill="#8a7d68">position approximative</text>
+            </g>
+
+            <!-- compass -->
+            <g transform="translate(740,60)" font-family="JetBrains Mono, monospace" font-size="10" fill="#1c1712">
+              <line x1="0" y1="-16" x2="0" y2="16" stroke="#1c1712" stroke-width="1"/>
+              <path d="M0,-16 l-4,7 h8 z" fill="#1c1712"/>
+              <text x="6" y="-10">N</text>
+            </g>
+
+            <!-- scale note -->
+            <text x="30" y="460" font-family="JetBrains Mono, monospace" font-size="9" fill="#8a7d68">Échelle non uniforme — voir note ci-dessous</text>
+          </svg>
+        </div>
+        <div class="map-legend">
+          <span><i class="dot-terre"></i> villages mambila principaux</span>
+          <span><i class="dot-safran"></i> site historique (Mvɔr)</span>
+          <span><i class="dot-bois"></i> centre administratif</span>
+        </div>
+      </div>
+      <p class="note">Carte redessinée à la main, non projetée cartographiquement. Les positions
+      de Somié (6°24′N, 11°27′E) et Bankim (6°05′N, 11°29′E) reflètent leurs coordonnées GPS
+      réelles, rapportées à l'échelle du schéma ; celles d'Atta, Sonkolong et Mvɔr, faute de
+      coordonnées publiées dans les sources, restent des positions approximatives déduites des
+      descriptions textuelles (distances relatives, direction de l'escarpement) et sont
+      signalées comme telles. Le tracé de la rivière Mapé est schématique.</p>
+
+      <h2 id="population">Population et langue</h2>
+      <p>La population mambila du <strong>Nigéria</strong> est estimée à environ
+      <strong>43 000 à 75 000</strong> personnes selon les sources et les périodes ; celle du
+      <strong>Cameroun</strong>, bien plus restreinte, entre <strong>10 000 et 20 000</strong>
+      habitants. Ces chiffres, provisoires, dépendent des recensements administratifs successifs
+      (1986 notamment) et restent sujets à discussion.</p>
+
+      <p>Leur langue, le <strong>Jù Bà</strong> (« la langue des Bà »), porte le numéro
+      <strong>710</strong> dans l'Atlas linguistique du Cameroun. Classée bantoïde non-bantoue,
+      elle appartient au groupe des langues dites « mambiloïdes », aux côtés du wute, un groupe
+      qui ne se rattache aisément à aucune autre famille voisine. Il s'agit en réalité d'une
+      <em>chaîne de dialectes</em> mutuellement compréhensibles à courte distance : la
+      compréhension décroît avec l'éloignement géographique, si bien que les dialectes du haut
+      plateau nigérian sont presque incompréhensibles pour les Mambila de la plaine
+      camerounaise. Faute de langue commune, Mambila du Nigéria et du Cameroun se parlent en
+      Fulfulde lorsqu'ils se croisent au marché — mais un immigrant s'adapte au dialecte de
+      Somié en moins d'un an de séjour.</p>
+
+      <div class="grid cols-3 my-block--xl">
+        <div class="stat"><span class="n">43 000+</span><span class="lab">Mambila au plateau, Nigéria</span></div>
+        <div class="stat"><span class="n">10 - 20 000</span><span class="lab">Mambila, plaine des Tikar, Cameroun</span></div>
+        <div class="stat"><span class="n">1 777</span><span class="lab">habitants, canton de Somié (recensement 1986)</span></div>
+      </div>
+
+      <h2 id="plaine">La plaine des Tikar</h2>
+      <p>La plaine des Tikar est bordée sur trois côtés par les escarpements du plateau
+      d'Adamaoua, du plateau des Mambila et du plateau de Bamoun ; la rivière Mapé en forme le
+      quatrième côté, au-delà de laquelle le pays s'ouvre vers le centre du Cameroun. Le relief
+      favorise une écologie généreuse : pluies abondantes et régulières, sols fertiles nourris
+      par les ruisseaux descendant du plateau.</p>
+      <p>Les <strong>Tikar</strong> forment la majorité de la population de la plaine, installés
+      entre la rivière Mapé et la route Foumban - Banyo ; le chef tikar de Bankim y est reconnu
+      comme souverain. Les <strong>Konja</strong>, venus s'installer plus récemment en
+      descendant depuis le plateau d'Adamaoua, et les <strong>Mambila</strong> partagent le
+      reste du territoire. Konja comme Mambila semblent avoir emprunté aux Tikar
+      l'<em>institution du chef</em>, sans pour autant reprendre l'ensemble de leur système
+      politique — en particulier l'usage des mascarades comme représentation du pouvoir
+      centralisé, qui n'a pas d'équivalent mambila.</p>
+      <p>La construction du barrage de la rivière Mapé, achevée en 1987 - 1988, a entraîné le
+      déplacement de la route reliant les villages mambila à Bankim et l'inondation de certains
+      champs tikar — sans toucher directement les plantations de café mambila, situées plus en
+      hauteur.</p>
+
+      <h2 id="somie">Le canton de Somié</h2>
+      <p>Somié — appelé aussi <em>Ndeba</em> ou <em>Cɔkmo</em> (parfois transcrit Tchokmo) —
+      se situe par 6°28′ nord, 11°27′ est, dans la sous-préfecture de Bankim, province de
+      l'Adamaoua. Le canton couvre environ <strong>240 km²</strong> pour
+      <strong>1 777 habitants</strong> selon le recensement fiscal de 1986, chiffre incertain
+      car l'appartenance de certains villages au canton — notamment le village konja de
+      Mbonjanga — reste discutée localement et vécue comme une contrainte administrative par
+      ses habitants.</p>
+      <p>Le centre du village, où se concentre l'essentiel du travail de terrain documenté ici,
+      comptait <strong>1 006 habitants</strong> en 1987. On y trouve le palais du chef, un
+      dispensaire d'État, une église protestante et deux écoles primaires (l'une publique
+      ouverte en 1987, l'autre fondée par les missionnaires). Fait notable : jusqu'à la fin des
+      années 1980, le centre de Somié restait peuplé presque exclusivement de Mambila — à la
+      différence d'Atta et Sonkolong, où les quartiers d'immigrants jouxtent le centre du
+      village.</p>
+      <p>Depuis les années 1990, la population du village s'est nettement accrue : un
+      recensement plus récent (2001) l'estime à environ <strong>5 000 habitants</strong> pour
+      l'ensemble de Somié. Le village s'est aussi équipé, en 2018, d'une petite installation
+      solaire qui l'alimente en électricité — signe des transformations matérielles survenues
+      depuis la période documentée par les sources ethnographiques de 1985-1990 utilisées pour
+      le reste de ce site.</p>
+
+      <h2 id="hameaux">Villages et hameaux</h2>
+      <p>Chaque village principal est entouré de hameaux satellites qui en dépendent sur les
+      plans administratif, social et économique, chacun doté d'un « petit chef » dont le rôle
+      va de simple porte-parole à quasi-chef de village. Certains hameaux, comme
+      <strong>Lingam</strong>, jouissent d'une plus grande autonomie et d'une école propre ; son
+      chef revendique une origine commune avec les chefs des trois villages principaux.</p>
+
+      <table class="data">
+        <thead><tr><th>Village</th><th>Nom mambila</th><th>Statut</th></tr></thead>
+        <tbody>
+          <tr><td>Atta</td><td>Ta</td><td>Village principal, chefferie « à queue de buffle »</td></tr>
+          <tr><td>Somié</td><td>Ndeba / Cɔkmo</td><td>Village principal, siège de l'étude de terrain</td></tr>
+          <tr><td>Sonkolong</td><td>Mbɔr</td><td>Village principal</td></tr>
+          <tr><td>Sabongari</td><td>Ŋgɔm</td><td>Origine mambila, population aujourd'hui mêlée</td></tr>
+          <tr><td>Lingam</td><td>Lingame</td><td>Hameau autonome, école propre</td></tr>
+          <tr><td>Njerep</td><td>—</td><td>Hameau de Somié, siège d'un « faiseur de chef »</td></tr>
+          <tr><td>Gumbe</td><td>—</td><td>Hameau de Somié, siège du « Papa de Somié », second « faiseur de chef »</td></tr>
+          <tr><td>Duabang</td><td>—</td><td>Petit hameau, foyer du récit de Mbe Charles</td></tr>
+        </tbody>
+      </table>
+
+      <p class="mt-sm">Les mariages entre villages sont fréquents mais leur
+      probabilité décroît avec la distance : une tradition de bonnes relations lie durablement
+      Somié et Atta, tandis que les rapports entre Somié et Sonkolong, plus instables,
+      connaissent des ruptures et des réconciliations rituelles répétées.</p>
+
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap cta-block">
+    <div class="eyebrow">Suite</div>
+    <h2>Comment cette terre organise la vie sociale</h2>
+    <p>Résidence, parenté, mariage : découvrez comment le peuplement de la plaine
+    façonne la structure sociale mambila.</p>
+    <a href="societe.html" class="btn primary">Société &amp; parenté →</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+        <div class="foot-note">
+      <span>Site réalisé par Beyea Yokomi J. — à partir de sources ethnographiques publiées, <a href="sources.html">voir la page Sources</a>.</span>
+      <span><a href="https://yokomi-potofolio.onrender.com/" target="_blank" rel="noopener">Portfolio de l'auteur ↗</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/lexicon-data.js"></script>
+<script src="js/main.js"></script>
+<script src="js/lexicon.js"></script>
+</body>
+</html>
