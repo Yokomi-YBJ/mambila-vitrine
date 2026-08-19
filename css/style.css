@@ -589,6 +589,59 @@ footer .brand-desc{
   .read-progress__bar{ transition:none; }
 }
 
+/* ---------------- Sua concept tree (organigramme) ---------------- */
+.sua-tree{
+  margin:2em 0;
+  padding:28px 20px;
+  background:var(--paper-2);
+  border:1px solid var(--line-strong);
+  overflow-x:auto;
+}
+.sua-tree__root{
+  display:flex; justify-content:center; margin-bottom:22px;
+}
+.sua-tree__root span{
+  font-family:var(--serif); font-weight:700; font-style:italic; font-size:1.5rem;
+  color:var(--terre-dk);
+  background:var(--paper); border:2px solid var(--terre);
+  padding:8px 26px;
+  position:relative;
+}
+.sua-tree__root::after{
+  content:'';
+  display:block; position:relative;
+  width:1px; height:22px; background:var(--line-strong);
+  margin:0 auto;
+  order:2;
+}
+.sua-tree__branches{
+  display:flex; justify-content:center; gap:48px; flex-wrap:wrap;
+  position:relative;
+  padding-top:22px;
+  border-top:1px solid var(--line-strong);
+}
+.sua-tree__branch{ min-width:220px; flex:1 1 260px; }
+.sua-tree__node{ display:flex; justify-content:center; margin-bottom:18px; }
+.sua-tree__node span{
+  font-family:var(--mono); font-size:.82rem; letter-spacing:.03em; text-transform:uppercase;
+  background:var(--terre); color:var(--paper);
+  padding:7px 16px;
+}
+.sua-tree__leaves{
+  display:flex; flex-direction:column; gap:10px;
+  border-left:2px solid var(--line-strong);
+  padding-left:16px;
+}
+.sua-tree__leaf{
+  display:flex; flex-direction:column; gap:2px;
+  background:var(--paper); border:1px solid var(--line);
+  padding:9px 12px;
+}
+.sua-tree__leaf span{
+  font-family:var(--serif); font-style:italic; font-weight:600; color:var(--ink-strong); font-size:.96rem;
+}
+.sua-tree__leaf small{ font-family:var(--mono); font-size:.7rem; color:var(--bois); }
+
 /* ---------------- Lexique interactif ---------------- */
 .lex-hit{
   border-bottom:1px dashed var(--terre-dk);

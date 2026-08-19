@@ -167,5 +167,11 @@ const MAMBILA_LEXICON = [
     variants: [],
     def: "Les cinq femmes titrées qui dirigent la cérémonie bisannuelle du sua féminin.",
     page: "religion.html#sua-femmes"
+  },
+  {
+    term: "Bou Sua",
+    variants: [],
+    def: "Littéralement « la machette du sua » — instrument à lame façonnée et étui de bois peint, utilisé par les femmes pendant la danse.",
+    page: "religion.html#sua-femmes"
   }
 ];
